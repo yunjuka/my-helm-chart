@@ -1,0 +1,7 @@
+# charts/helm01_member/Chart.yaml
+apiVersion: v2
+name: member-app
+description: fastapi member application
+type: application
+version: 0.1.0       # helm chart 자체의 버전
+appVersion: "1.0.0"  # chart 로 배포하는 app 의 버전
