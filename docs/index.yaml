@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  market-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-07-01T09:50:09.162972233+09:00"
+    description: Market Application Helm Chart for Kubernetes
+    digest: 659984af68737974f6d6e10692aba6567cba431e019f0f84f07f74a096c91022
+    name: market-app
+    type: application
+    urls:
+    - https://yunjuka.github.io/my-helm-chart/market-app-0.1.0.tgz
+    version: 0.1.0
   member-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-06-29T11:07:20.102462343+09:00"
+    created: "2026-07-01T09:50:09.174837358+09:00"
     description: fastapi member application
     digest: 935b8ff13fc0a018bd70aab43e12e570b07f9634f7d6bf0e8893cf9b2e235a20
     name: member-app
     type: application
     urls:
-    - https://lio464628.github.io/my-helm-chart/member-app-0.1.0.tgz
+    - https://yunjuka.github.io/my-helm-chart/member-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-29T11:07:20.100890297+09:00"
+generated: "2026-07-01T09:50:09.161716001+09:00"
